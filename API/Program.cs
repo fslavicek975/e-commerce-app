@@ -9,6 +9,7 @@ using Infrastructure.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.FileProviders;
 
 namespace API
 {
@@ -35,6 +36,10 @@ namespace API
             app.UserSwaggerDocumentation();
 
             app.UseStaticFiles();
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "Content")), RequestPath = "/Content"
+            });
 
             app.UseCors("CorsPolicy");
 
@@ -43,6 +48,7 @@ namespace API
             app.UseAuthorization();
 
             app.MapControllers();
+            app.MapFallbackToController("Index", "Fallback");
 
             using var scope = app.Services.CreateScope();
             var services = scope.ServiceProvider;
