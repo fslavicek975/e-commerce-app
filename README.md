@@ -1,6 +1,6 @@
-__Proof of concept e-commerce store using Angular, .Net and Stripe for payment processing__
+**Proof of concept e-commerce store using Angular, .Net and Stripe for payment processing**
 
-__Features__
+**Features**
 
 __Backend__ <br /> 
 .Net Core 7 <br /> 
