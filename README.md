@@ -9,8 +9,6 @@ Built trough Udemy course by Skinet.
 Entity Framework <br /> 
 Identity <br /> 
 JWT tokens <br /> 
-Security <br /> 
-Swagger  <br /> 
 C# Generics <br /> 
 Generic Repository and Unit of Work Pattern <br /> 
 Sorting, Filtering, Searching and Pagination <br /> 
