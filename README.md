@@ -1,11 +1,11 @@
-#Skinet Udemy Course
+# Skinet Udemy Course
 
-##Description
+## Description
 Proof of concept e-commerce store using Angular, .Net and Stripe for payment processing.
 
-##Features
+## Features
 
-###Backend <br /> 
+### Backend <br /> 
 .Net Core 7 <br /> 
 Entity Framework <br /> 
 Identity <br /> 
@@ -20,7 +20,7 @@ Specification Pattern <br />
 Accepting payments using Stripe <br /> 
 Caching with Redis <br /> 
 
-###Frontend <br /> 
+### Frontend <br /> 
 Angular 15 <br /> 
 SCSS <br /> 
 Sorting, Filtering, Searching and Pagination<br /> 
