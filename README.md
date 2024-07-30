@@ -1,8 +1,8 @@
-__Proof of concept e-commerce store using Angular, .Net and Stripe for payment processing
+__Proof of concept e-commerce store using Angular, .Net and Stripe for payment processing__
 
-__Features
+__Features__
 
-__Backend
+__Backend__
 .Net Core 7
 Entity Framework
 Identity
@@ -17,10 +17,9 @@ Specification Pattern
 Accepting payments using Stripe
 Caching with Redis
 
-__Frontend
+__Frontend__
 Angular 15
 SCSS
-Caching with Redis
 Sorting, Filtering, Searching and Pagination
 Angular Lazy loading
 Angular Routing
