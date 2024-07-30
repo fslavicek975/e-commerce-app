@@ -27,4 +27,3 @@ Angular Lazy loading <br />
 Angular Routing <br /> 
 Angular Guards <br /> 
 Angular Interceptors <br /> 
-Angular Creating a MultiStep form wizard <br /> 
