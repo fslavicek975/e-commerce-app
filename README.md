@@ -1,6 +1,6 @@
 ## Description
-Proof of concept e-commerce store using Angular, .Net and Stripe for payment processing.
-Built trough Udemy course.
+Proof of concept e-commerce store using Angular, .Net and Stripe for payment processing. <br /> 
+Built trough Udemy course "Learn to build an e-commerce app with .Net Core and Angular".
 
 ## Features
 
