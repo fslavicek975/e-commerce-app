@@ -41,9 +41,9 @@ cd client
 npm install
 ```
 
-### 4. Start SQL Server and Redis
+### 4. Start PostgreSQL and Redis
 
-The app uses both SQL Server and Redis. You can start these services using Docker by running the following command from the solution folder:
+The app uses both PostgreSQL and Redis. You can start these services using Docker by running the following command from the solution folder:
 
 ```sh
 docker compose up -d
@@ -93,8 +93,3 @@ Now you can run both the .NET app and the Angular app.
   ```
 
 You can then browse to the Angular application at [https://localhost:4200](https://localhost:4200).
-
-## Additional Information
-
-For any further details, refer to the documentation or contact the project maintainers.
-
