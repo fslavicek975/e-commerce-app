@@ -20,7 +20,7 @@ To run this project locally, you need to have the following installed:
 First, you need to clone the project into a folder on your computer:
 
 ```sh
-git clone [https://github.com/TryCatchLearn/skinet-2024.git](https://github.com/fslavicek975/e-commerce-app)
+git clone https://github.com/fslavicek975/e-commerce-app
 cd e-commerce-app
 ```
 
