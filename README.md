@@ -39,7 +39,7 @@ npm install
 
 ### 4. Start Redis
 
-The app uses and Redis. You can start it using Docker by running the following command from the solution folder:
+You can start Redis using Docker by running the following command from the solution folder:
 
 ```sh
 docker compose up -d
